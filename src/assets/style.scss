@@ -1,0 +1,65 @@
+.solting-wrapper {
+  background-color: #000000;
+  height: 100vh;
+  width: 100%;
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 30px;
+  }
+  section {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .menu-area {
+    display: block;
+    color: #ffffff;
+    padding-left: 20px;
+    .input-area {
+      margin-bottom: 50px;
+    }
+    h3 {
+      padding-bottom: 6px;
+      margin: unset;
+    }
+  }
+  .graph-form {
+    width: 1200px;
+    height: 700px;
+    border: 1px solid #ffffff;
+    margin: auto;
+    padding-top: 40px;
+    ul {
+      display: flex;
+      height: 100%;
+      align-items: flex-end;
+      margin: unset;
+      padding: unset;
+      justify-content: space-between;
+
+      li {
+        list-style: none;
+        width: 200px;
+        text-align: center;
+        color: #000000;
+        transition: all 1s;
+        &:nth-child(1) {
+          background-color: hotpink;
+        }
+        &:nth-child(2) {
+          background-color: burlywood;
+        }
+        &:nth-child(3) {
+          background-color: yellow;
+        }
+        &:nth-child(4) {
+          background-color: white;
+        }
+        &:nth-child(5) {
+          background-color: aqua;
+        }
+      }
+    }
+  }
+}
