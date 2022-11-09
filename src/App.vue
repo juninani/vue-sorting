@@ -61,15 +61,16 @@ const heightData = (index) => {
         </div>
       </div>
       <div class="graph-form">
-        <ul>
+        <transition-group tag="ul" name="fade">
           <li
             v-for="(item, i) in graphBar"
             :style="{ height: `${item.height}%` }"
+            :key="item.key"
           >
             {{ item.data }}
             {{ item.height }}
           </li>
-        </ul>
+        </transition-group>
       </div>
     </section>
   </div>
