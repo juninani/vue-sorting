@@ -1,0 +1,26 @@
+.anime-wrapper {
+  background-color: #000000;
+  .anime-title {
+    font-size: 23px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+  }
+  .anime-form {
+    padding: 20px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5%, auto));
+    padding-top: 40px;
+    margin: auto;
+    max-width: 400px;
+    width: 100%;
+    p {
+      height: 10px;
+      background-color: #ffffff;
+      border: 1px solid #000000;
+    }
+  }
+}
