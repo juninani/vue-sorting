@@ -1,0 +1,32 @@
+.life-wrapper {
+  .life-title {
+    font-size: 23px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+  }
+  .life-form {
+    padding: 20px;
+  }
+  .button-area {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    button {
+      width: 100px;
+      height: 70px;
+      border: 1px solid #000000;
+      cursor: pointer;
+    }
+  }
+  .test-section {
+    border: 1px solid #000000;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+}

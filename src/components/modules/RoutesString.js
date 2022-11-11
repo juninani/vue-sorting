@@ -4,4 +4,5 @@ export const RoutesString = {
   Sort: "/sort",
   Err: "/:catchAll(.*)",
   Anime: "/anime",
+  Lifecycle: "/lifecycle",
 };

@@ -1,5 +1,11 @@
-<script setup>
-const props = defineProps(["graphData"]);
+<script lang="ts" setup>
+const props = defineProps<{
+  graphData: {
+    height: number;
+    key: number;
+    data: string;
+  }[];
+}>();
 </script>
 
 <template>

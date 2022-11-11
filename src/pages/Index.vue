@@ -29,8 +29,10 @@ function event() {
         @swiper="onSwiper"
         @slideChange="onSlideChange"
       >
-        <swiper-slide v-for="(item, i) in MainTable" class="swiper-slide">
-          <a class="data-title" :href="item.path">{{ item.name }}</a>
+        <swiper-slide v-for="item in MainTable" class="swiper-slide">
+          <router-link class="data-title" :to="item.path">{{
+            item.name
+          }}</router-link>
         </swiper-slide>
         <div class="swiper-pagination"></div>
       </swiper>

@@ -4,6 +4,9 @@ import Home from "@/pages/Index.vue";
 import Sort from "@/pages/sort/Index.vue";
 import Err from "@/pages/err/Err.vue";
 import Anime from "@/pages/animeJs/anime.vue";
+import Lifecycle from "@/pages/lifecycleHooks/lifecycleHooks.vue";
+//** route */
+
 const pages = [
   {
     path: RoutesString.Home,
@@ -24,6 +27,11 @@ const pages = [
     path: RoutesString.Anime,
     component: Anime,
     name: "anime",
+  },
+  {
+    path: RoutesString.Lifecycle,
+    component: Lifecycle,
+    name: "Lifecycle",
   },
 ];
 

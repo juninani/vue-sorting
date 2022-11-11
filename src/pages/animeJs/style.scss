@@ -10,7 +10,24 @@
   .anime-form {
     padding: 20px;
   }
+  .anime-area {
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
   .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5%, auto));
+    padding-top: 40px;
+    margin: auto;
+    max-width: 400px;
+    width: 100%;
+    p {
+      height: 10px;
+      background-color: #ffffff;
+      border: 1px solid #000000;
+    }
+  }
+  .axis {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(5%, auto));
     padding-top: 40px;
