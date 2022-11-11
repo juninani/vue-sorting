@@ -7,16 +7,24 @@ const obj = {
   foo: ref(1),
 };
 const { foo } = obj;
+
+//랜더가 되는 순간
 onMounted(() => {
   console.log("componentns");
 });
+
+//dom이 업데이트 된 후 이벤트
 onUpdated(() => {
   console.log(buttonYn.value);
   console.log("dddd");
 });
+
+//특정값이 변경될때
 watch(buttonYn, (val, old) => {
   console.log(val, old);
 });
+
+//읽기 전용 값
 let ynText = computed(() => `buttonYn is ${buttonYn.value}`);
 
 const buttonHandler = () => {
